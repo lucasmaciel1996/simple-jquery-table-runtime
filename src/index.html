@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>table</title>
+    <style>
+      table {
+        border: solid 1px;
+        width: 60%;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Teste Table</h1>
+    <form>
+      <input type="text" id="id" value="" placeholder="ID" />
+      <input type="text" id="uf" placeholder="uf" value="SC" />
+      <input type="text" id="city" placeholder="city" value="CANOINHAS" />
+
+      <button id="save">Salvar</button>
+      <hr />
+    </form>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>UF</th>
+          <th>CITY</th>
+          <th>Ações</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <script
+      src="https://code.jquery.com/jquery-1.12.4.js"
+      integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/code_js.js"></script>
+  </body>
+</html>
